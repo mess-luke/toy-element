@@ -4,11 +4,10 @@ on:
   push:
     branches:
       - master
-runs:
-  using: 'node20'
 
 jobs:
   test:
+    using: 'node20'
     name: Run Lint and Test
     runs-on: ubuntu-latest
 
