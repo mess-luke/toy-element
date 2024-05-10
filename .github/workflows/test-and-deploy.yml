@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+runs:
+  using: 'node20'
 
 jobs:
   test:
