@@ -1,1 +1,2 @@
--e 'packages:\n  - "packages/*"' 
+packages:
+  - "packages/*"
